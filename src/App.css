@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,11 +35,70 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+.App{
+  background-color: rgb(46, 63, 96);
+}
+
+h1, h3, h4, p{
+  color: antiquewhite;
+  padding: 1rem;
 }
 
 
-.elegir-meme{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+
+
+/* figure{
+  padding: 2rem;
+  width: 50%;
+} */
+
+figure img {
+  min-width: 400px;
+  max-width: 600px;
+}
+
+#textmeme  {
+  
+  padding-top: 20px;
+  font-family: impact, sans-serif;
+  font-size: 3em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+
+}
+
+
+/* .grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 200px;
+  gap: 20px; 
+  max-width: 80vw;
+  margin: auto;
+  padding-bottom: 30px;
+
+}
+
+.grid-container img {
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  width: 100%;
+} */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Cambia 200px al tamaño deseado */
+  gap: 10px; /* Espacio entre las imágenes */
+}
+
+.grid-container div {
+  border: 1px solid #ddd; /* Borde opcional para cada imagen */
+  
 }
