@@ -89,11 +89,12 @@ function Imgmemes() {
 
             <div className="row">
                 <div className="contenedor col-8" style={{ position: "relative" }}>
-                    <div id="exportar" style={{ display: 'inline-block' }}>
+                    <div  style={{ display: 'inline-block' }}>
+                    <h3>Vista Previa</h3>
 
                         {imgmeme && (
-                            <figure className="contenedor-meme">
-                                <h3>Vista Previa</h3>
+                            <figure className="contenedor-meme" id="exportar">
+                                
                                 <p className="position-absolute" id="textmeme" style={myStyle}>{textmeme}</p>
 
                                 <img src={imgmeme} className="img-responsive d-block m-auto" alt="meme" />
