@@ -59,7 +59,12 @@ figure img {
   min-width: 400px;
   max-width: 600px;
 }
-
+@media(max-width:425px){
+  figure img {
+    min-width: 200px;
+    max-width: 300px;
+  }
+}
 #textmeme  {
   
   padding-top: 20px;

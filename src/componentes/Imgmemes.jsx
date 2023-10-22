@@ -88,7 +88,7 @@ function Imgmemes() {
             <input onChange={textomeme} className="form-control w-50 m-50 m-auto d-block" type="text" placeholder="Escribe tu frase" name="meme" aria-label="default input example"></input>
 
             <div className="row">
-                <div className="contenedor col-8" style={{ position: "relative" }}>
+                <div className="col-md-8 col-sm-12" style={{ position: "relative" }}>
                     <div  style={{ display: 'inline-block' }}>
                     <h3>Vista Previa</h3>
 
@@ -106,7 +106,7 @@ function Imgmemes() {
 
 
                 </div>
-                <div className="col-4">
+                <div className="col-md-4 col-sm-12">
                 <h3>Opciones</h3>
                     <div className="row">
                     <div className="col-6">
