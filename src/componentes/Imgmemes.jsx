@@ -186,8 +186,13 @@ function Imgmemes() {
                     Siguiente
                 </button>
             </div>
+            <footer>
+               <p>Melinda Pinto - Curso React CAC</p> 
+            </footer>
 
         </div>
+        
+    
     );
 }
 
