@@ -42,23 +42,28 @@
   background-color: rgb(46, 63, 96);
 }
 
-h1, h3, h4, p{
+h1{
+  color: antiquewhite;
+  font-family: Lilita One;
+}
+h3, h4, h5, p, a{
   color: antiquewhite;
   padding: 1rem;
+  font-family: Indie Flower;
 }
+ 
 
 
-
-
-/* figure{
-  padding: 2rem;
-  width: 50%;
-} */
 
 figure img {
   min-width: 400px;
   max-width: 600px;
 }
+
+.btn-custom{
+  font-family: Indie Flower;
+}
+
 @media(max-width:425px){
   figure img {
     min-width: 200px;
@@ -78,24 +83,6 @@ figure img {
 
 }
 
-
-/* .grid-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 200px;
-  gap: 20px; 
-  max-width: 80vw;
-  margin: auto;
-  padding-bottom: 30px;
-
-}
-
-.grid-container img {
-  height: 100%;
-  object-fit: cover;
-  cursor: pointer;
-  width: 100%;
-} */
 
 .grid-container {
   display: grid;

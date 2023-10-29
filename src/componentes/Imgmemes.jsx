@@ -115,7 +115,7 @@ function Imgmemes() {
 
                             </figure>
                         )}
-                        <button onClick={descargar} type="button" className="btn btn-secondary mt-4 mb-4">Descargar meme</button>
+                        <button onClick={descargar} type="button" className="btn btn-custom btn-secondary mt-4 mb-4">Descargar meme</button>
                     </div>
 
 
@@ -125,7 +125,7 @@ function Imgmemes() {
                 <div className="col-md-5 col-sm-12">
                     <div className="row">
                         <div className="col-12">
-                            <h4>Ingresa el texto del meme</h4>
+                            <h4>Ingresa el texto del meme:</h4>
 
 
                             <input onChange={textomeme} className="form-control w-50 m-50 m-auto d-block" type="text" placeholder="Escribe tu frase" name="meme" aria-label="default input example"></input>
@@ -221,7 +221,7 @@ function Imgmemes() {
                         </div>
                         {/* Texto2 */}
                         <div className="col-12">
-                            <h4>Ingresa el texto 2 aquí</h4>
+                            <h4>Ingresa texto opcional: </h4>
 
                             <input onChange={textomeme2} className="form-control w-50 m-50 m-auto d-block" type="text" placeholder="Escribe tu frase" name="meme" aria-label="default input example"></input>
 
@@ -345,10 +345,10 @@ function Imgmemes() {
                     ))}
             </section>
             <div>
-                <button className="btn btn-secondary mt-4 mb-4" onClick={prevPage} disabled={currentPage === 0}>
+                <button className="btn btn-custom btn-secondary mt-4 mb-4" onClick={prevPage} disabled={currentPage === 0}>
                     Anterior
                 </button>
-                <button className="btn btn-secondary mt-4 mb-4" onClick={nextPage} disabled={endIndex >= img.length}>
+                <button className="btn btn-custom btn-secondary mt-4 mb-4" onClick={nextPage} disabled={endIndex >= img.length}>
                     Siguiente
                 </button>
             </div>
